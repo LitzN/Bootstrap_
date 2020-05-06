@@ -1,0 +1,103 @@
+body{
+font-family: 'Montserrat', sans-serif;
+text-align:center;
+}
+
+.alertcontainer{
+
+}
+
+.calloutcontainer{
+height:100vh;
+  background: url(https://images.pexels.com/photos/301692/pexels-photo-301692.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) no-repeat bottom right fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  margin:0 auto;
+}
+
+.jumbotronheader{
+    color:white;
+    font-weight:bold;
+    margin-bottom:30px;
+    padding-top:30px;
+}
+
+.jumbotron{
+    background-color: rgba(0,0,0,0.7);
+}
+
+.jumbotron >.lead{
+    color:seashell;
+}
+p small{
+    color:slategrey;
+}
+.btn-cta{
+    border-radius: 20px;
+    background-color: #e67e50;
+    border-color: #e67e50;
+    color:white;
+}
+.btn-cta:hover{
+    border-color:#a7410a;
+    background-color:#a7410a;
+    color:white;
+}
+
+.navalertcontainer{
+    position:absolute;
+    top:0;
+    left:0;
+    padding-left:0;
+    padding-right:0;
+    z-index:1;
+}
+.navbar{
+    margin-bottom:0;
+    border:0;
+    width:100%;
+    background-color:rgba(0,0,0,0.8);
+    top:0px;
+
+}
+.navbar .navbar-toggler{
+    border:0;
+}
+
+.navbar-brand{
+    font-weight:bold;
+}
+
+.navbar .navbar-nav a{
+    font-weight:bold;
+}
+
+.site-wide-alert{
+    padding-left:0;
+    padding-right:0;
+    border-radius:0;
+    margin-bottom:0;
+
+}
+
+
+
+
+
+.quotescontainer{
+
+}
+
+.featurescontainer{
+
+}
+
+.mfcontainer{
+
+}
