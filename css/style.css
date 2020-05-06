@@ -51,8 +51,8 @@ p small{
 }
 
 .navalertcontainer{
-    position:absolute;
-    top:0;
+    position:relative;
+    top:20px;
     left:0;
     padding-left:0;
     padding-right:0;
@@ -86,18 +86,31 @@ p small{
 
 }
 
-
-
-
-
+.container h2{
+    font-weight:bolder;
+}
+.quotescontainer img{
+    position: relative;
+    border-style: none;
+    top: 20px;
+}
 .quotescontainer{
-
+    padding:50px;
 }
-
 .featurescontainer{
-
+    background:#e67e50;
+    color:beige;
+    padding-bottom:30px;
 }
 
-.mfcontainer{
+.featurescontainer i{
+    font-size:50px;
+    line-height:50px;
+    padding-bottom:15px;
+}
 
+.featurescontainer .fbutton{
+    color:#a7410a;
+    font-weight:bold;
+background-color:white;
 }
